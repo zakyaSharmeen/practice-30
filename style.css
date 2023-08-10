@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: url(backGround\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .container .box{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+
+}
+.container .box nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container .box nav .logo{
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+.container .box nav .div-links a{
+    margin-right: 30px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.container .box nav .div-links a:hover{
+    color: red;
+}
+
+.contains{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.contains .section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.contains .section h3{
+    color: red;
+    margin: 30px 0 20px;
+    font-size: 25px;
+}
+.contains .section p{
+    font-size: 18px;
+    color: #b45a5a;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.btn:hover{
+    color: red;
+    background-color: #fff;
+}
